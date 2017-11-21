@@ -2,5 +2,8 @@
   "private": true,
   "devDependencies": {
     "nuxt": "^1.0.0-rc11"
+  },
+  "dependencies": {
+    "axios": "^0.17.1"
   }
 }

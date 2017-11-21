@@ -1,4 +1,9 @@
 module.exports = {
+  build: {
+    vendor: [
+      'axios',
+    ],
+  },
   generate: {
     dir: 'docs',
     routes: [
