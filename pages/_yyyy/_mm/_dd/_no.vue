@@ -3,6 +3,7 @@
     <div>{{ fullPath }}</div>
     <div>{{ String(something) }}</div>
     <h1>yeah</h1>
+    <nuxt-link to="/">index</nuxt-link>
   </div>
 </template>
 
