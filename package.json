@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "devDependencies": {
+    "nuxt": "^1.0.0-rc11"
+  }
+}
