@@ -8,7 +8,7 @@
 <script>
   export default {
     async asyncData(context) {
-      const data = await import('~/assets/1.json');
+      const data = await import('~/assets/' + 1 + '.json');
 
       return {
         data,
