@@ -15,4 +15,16 @@ module.exports = {
   router: {
     middleware: 'simple',
   },  
+  modules: [
+    ['wowwow', {
+      opt1: 1,
+      opt2: 2,
+      opt3: 3,
+    }]
+  ],
+  /*
+  serverMiddleware: [
+    { path: '/api', handler: '~api.js', },
+  ],
+  */
 };
