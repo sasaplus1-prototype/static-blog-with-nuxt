@@ -1,5 +1,6 @@
 const util = require('util');
 
+// https://nuxtjs.org/api/configuration-servermiddleware
 function wowwowModule(moduleOptions) {
   this.addServerMiddleware(function(req, res, next) {
     if (!/^XMLHttpRequest$/i.test(req.headers['x-requested-with'])) {
